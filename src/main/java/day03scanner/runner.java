@@ -9,9 +9,9 @@ public class runner {
         //Class Ismi    Object Ismi   Atama Operatörü    "new" keyword     Construcktor
             Car             myCar          =                   new            Car();
 
-        System.out.println(myCar.fiyat);
-
         System.out.println(myCar.model);
+
+        System.out.println(myCar.fiyat);
 
         myCar.hareket();
 

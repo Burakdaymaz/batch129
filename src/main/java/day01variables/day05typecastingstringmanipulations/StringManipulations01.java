@@ -49,8 +49,32 @@ public class StringManipulations01 {
 
         //Example 8: "s" String`indeki "easy" kelimesi aliniz
         String sub3 = s.substring(8, 12);
+        System.out.println(sub3);
 
+        //Bir character'den baslayip String'in sonuna kadar almak isterseniz, ikinci index'i yazmayiniz
+        //s.substring(8, 12); yerine s.substring(8); yaziniz
+        String sub4 = s.substring(8);
+        System.out.println(sub4);
 
+        //Example 9: "s" String'inde "money" kelimesinin var olup olmadigini kontrol ediniz.
+        boolean isExist = s.contains("money");
+        System.out.println(isExist);
+
+        /*
+            Bir method'u ogrenirken 3 sey mutlaka ogrenin;
+            i)Bu method ne is yapar?
+            ii)Bu method'un farkli kullanimlari nasildir?
+            iii)Bu method size ne return eder?
+
+         */
+
+        //Example 10: "s" String'inin belli bir harfle baslayip baslamadigini kontrol ediniz.
+        boolean isStart = s.startsWith("Java");
+        System.out.println(isStart);
+
+        //Example 11: "s" String'inin 6. characterden itibaren belli bir harfle baslayip baslamadigini kontrol ediniz.
+        boolean isBegin = s.startsWith("i", 5);
+        System.out.println(isBegin);
     }
 
 

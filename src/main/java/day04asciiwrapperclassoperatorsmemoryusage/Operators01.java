@@ -9,11 +9,11 @@ public class Operators01 {
 
          2)Java`da "logical operator"lar vardir.
          AND ve OR islemleri "logical operator"lardir
-         i) AND isleminden true olabilmek icin  her sey true olmalidir.
+         i) AND(&&) isleminden true olabilmek icin  her sey true olmalidir.
             AND islemci "perfectionist"tir.
             AND isleminde  bir tane false sonucu false yapar.
 
-         ii)OR isleminde bir tane true sonucu true yapmaya yeter .
+         ii)OR isleminde (||) bir tane true sonucu true yapmaya yeter .
             OR isleminde sonucu false olmasi icin hersey false olmalidir.
             OR islemi "polyanna" gibidir.
 
@@ -23,12 +23,14 @@ public class Operators01 {
             !!true= true
 
             3)Comporisan(Karsilastirma) Operators
-            <,>, <==,>=, ==, !=
+            <,>, <=,>=, ==, !=
             Note: Karsilastirma operatörlerini kullandiginizda kesinlikle booleon(true veya false) alirsiniz.
 
-            Note. Biz AND islemi icin "&&" kullaniriz ama "&" kullanim`da gecerlidir.
+            Note: Biz AND islemi icin "&&" kullaniriz ama "&" kullanim`da gecerlidir.
             Farklari nedir ?
-
+           "&&" kullanim ilk ifade "false" oldugunda digerlerini kontrol etmez dolayisiyla hizli calisir.
+            &" kullanim ilk ifade ne olursa olsun digerlerini kontrol eder dolayisiyla yavas calisir.
+            Bu yuzden biz hep "&&" kullaniriz.
 
 
     */
@@ -39,13 +41,12 @@ public class Operators01 {
         boolean second = 2+3 !=5;
         boolean third = 2+3*5 >= 19;
 
-        System.out.println(first + " - " + second + "- " + third );
-
+        System.out.println(first + " - " + second + " - " + third );
         System.out.println(first && second );
-
-        System.out.println(first |  second  |  third);
+        System.out.println(first || second  ||  third);
 
     }
+
 
 
 }

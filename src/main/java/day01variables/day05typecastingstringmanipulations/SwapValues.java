@@ -7,7 +7,7 @@ public class SwapValues {
     public static void main(String[]args) {
 
         int a = 12;
-        int b = 5;  //Swap`dan sonra ==> a5 ve b=12
+        int b = 5;  //Swap`dan sonra ==> a=5 ve b=12
         int temp = 8;
 
         System.out.println("a: " + a); //12
@@ -15,13 +15,13 @@ public class SwapValues {
 
 
         //1.Adim
-        temp = a;
+        temp = a;//12
 
         //2.Adim
-        a = b;
+        a = b;//5
 
         //3.Adim
-        b = temp;
+        b = temp;//12
 
         System.out.println("a:" + a);//5
         System.out.println("b:" + b);//12

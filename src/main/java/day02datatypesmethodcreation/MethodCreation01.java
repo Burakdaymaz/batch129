@@ -28,7 +28,6 @@ public class MethodCreation01 {
         System.out.println(ucluSonuc);
 
         double kup = getCube(5);
-
         System.out.println(kup);
 
     }

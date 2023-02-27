@@ -12,11 +12,11 @@ public class Student {
 
 
      public void study() {
-        System.out.println("Cok 3 kagitcidir...");
+        System.out.println("Gunu gunune ders calisir...");
     }
 
      public void feed(){
-        System.out.println("Her buldugunu yer...");
+        System.out.println("Saglikli beslenir...");
 
     }
 
